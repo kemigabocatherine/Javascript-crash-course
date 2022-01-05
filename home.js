@@ -6,6 +6,7 @@ console.log('hello there');
 var b = 'smoothie';
 console.log(b);
 
-document.getElementById('someText').innerHTML = 'Hey there';
 
-prompt('What is your age?');
+var age = prompt('What is your age?');
+
+document.getElementById('someText').innerHTML = age;
