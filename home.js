@@ -29,7 +29,7 @@ console.log(num2);
 num2 /= 3;
 console.log(num2);
 
-//Functions
+//FUNCTIONS
 function fun() {
   alert('this is a function');
 }
@@ -51,3 +51,15 @@ function sumNumbers(num1,num2) {
 }
 
 sumNumbers('Hello ', 'Cathy');
+
+//WHILE & FOR LOOPS
+//While loops
+
+var num = 0;
+
+while (num < 100) {
+  num += 1;
+  console.log(num);
+}
+
+
