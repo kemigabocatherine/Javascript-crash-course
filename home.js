@@ -7,7 +7,7 @@ var b = 'smoothie';
 console.log(b);
 
 
-var age = prompt('What is your age?');
+//var age = prompt('What is your age?');
 
 document.getElementById('someText').innerHTML = age;
 
@@ -30,7 +30,7 @@ num2 /= 3;
 console.log(num2);
 
 //FUNCTIONS
-function fun() {
+/*function fun() {
   alert('this is a function');
 }
 
@@ -42,7 +42,7 @@ function greeting() {
   console.log(result);
 }
 
-greeting();
+greeting();*/
 
 //Arguments
 function sumNumbers(num1,num2) {
@@ -55,10 +55,15 @@ sumNumbers('Hello ', 'Cathy');
 //WHILE & FOR LOOPS
 //While loops
 
-var num = 0;
+/*var num = 0;
 
 while (num < 100) {
   num += 1;
+  console.log(num);
+}*/
+
+//For loop
+for(let num = 0; num <= 100; num++) {
   console.log(num);
 }
 
