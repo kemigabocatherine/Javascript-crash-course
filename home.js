@@ -38,11 +38,16 @@ fun();
 
 function greeting() {
   var name = prompt('What is your name?');
-  var result = 'Hello ' + name;
+  var result = 'Hello ' + name;//string concatenation
   console.log(result);
 }
 
 greeting();
 
+//Arguments
+function sumNumbers(num1,num2) {
+  var result = num1 + num2;
+  console.log(result);
+}
 
-
+sumNumbers('Hello ', 'Cathy');
