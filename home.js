@@ -29,5 +29,20 @@ console.log(num2);
 num2 /= 3;
 console.log(num2);
 
+//Functions
+function fun() {
+  alert('this is a function');
+}
+
+fun();
+
+function greeting() {
+  var name = prompt('What is your name?');
+  var result = 'Hello ' + name;
+  console.log(result);
+}
+
+greeting();
+
 
 
