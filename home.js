@@ -7,9 +7,9 @@ var b = 'smoothie';
 console.log(b);
 
 
-//var age = prompt('What is your age?');
+/*var age = prompt('What is your age?');
 
-document.getElementById('someText').innerHTML = age;
+document.getElementById('someText').innerHTML = age;*/
 
 //Numbers in Javascript
 var num1 = 10;
@@ -75,3 +75,22 @@ let truth = false //boolean
 let groceries = ['apples', 'banana', 'oranges']; //array
 let random; //undefined
 let nothing = null; //null
+
+//Strings ->common methods
+let fruit = 'banana';
+let moreFruits = 'banana\napple'; //new line
+
+console.log(moreFruits);
+console.log(fruit.length);
+console.log(fruit.indexOf('an'));
+console.log(fruit.slice(3,5));
+console.log(fruit.replace('ban','123'));
+console.log(fruit.toUpperCase());
+console.log(fruit.toLowerCase());
+console.log(fruit.charAt(2));
+console.log(fruit.split(',')); //split by coma
+console.log(fruit.split('')); // split by character
+
+
+
+
